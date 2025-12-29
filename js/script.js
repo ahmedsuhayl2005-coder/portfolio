@@ -58,5 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // MOBILE MENU TOGGLE
 
 function toggleMenu() {
-    document.querySelector(".sidebar nav").classList.toggle("show");
+    document.querySelector(".sidebar").classList.toggle("show");
 }
+
+
